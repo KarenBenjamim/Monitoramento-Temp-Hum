@@ -6,13 +6,13 @@
 #include <PubSubClient.h>
 #include <DHT.h>
 #define INTERVAL 1000
-#define SSID "Galaxy S10" //nome da sua rede
-#define PASSWORD "yzij2146" // senha da rede
+#define SSID "" //nome da sua rede
+#define PASSWORD "" // senha da rede
 #define MQTT_SERVER "quickstart.messaging.internetofthings.ibmcloud.com"
 #define TOPIC_NAME "iot-2/evt/status/fmt/json"
 
 const String QUICK_START = "d:quickstart:arduino:";
-const String DEVICE_ID = "MKBS"; // id do seu dispositivo
+const String DEVICE_ID = ""; // id do seu dispositivo
 const String CLIENT_ID =  QUICK_START + DEVICE_ID;
 
 WiFiClient wifiClient;
